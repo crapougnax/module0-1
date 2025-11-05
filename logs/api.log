@@ -1,0 +1,32 @@
+2025-11-05 11:32:55.755 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:32:55.755 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:33:56.401 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:33:56.401 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:35:00.020 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:35:00.020 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:35:03.612 | ERROR    | api:anasent:65 - Erreur lors de l'analyse: name 'step' is not defined
+2025-11-05 11:35:03.612 | ERROR    | api:anasent:65 - Erreur lors de l'analyse: name 'step' is not defined
+2025-11-05 11:36:02.473 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:36:02.473 | INFO     | api:anasent:29 - Received text: bonjour
+2025-11-05 11:36:02.898 | ERROR    | api:anasent:61 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:36:02.898 | ERROR    | api:anasent:61 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:36:54.665 | INFO     | api:anasent:32 - Received text: bonjour
+2025-11-05 11:36:54.665 | INFO     | api:anasent:32 - Received text: bonjour
+2025-11-05 11:36:55.304 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:36:55.304 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:38:33.960 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:38:33.960 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:38:40.918 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:38:40.918 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:41:07.799 | INFO     | api:anasent:31 - Received text: bonjour
+2025-11-05 11:41:07.799 | INFO     | api:anasent:31 - Received text: bonjour
+2025-11-05 11:41:11.552 | ERROR    | api:anasent:63 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:41:11.552 | ERROR    | api:anasent:63 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:41:38.329 | INFO     | api:anasent:31 - Received text: bonjour
+2025-11-05 11:41:38.329 | INFO     | api:anasent:31 - Received text: bonjour
+2025-11-05 11:41:38.732 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:41:38.732 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:41:38.734 | INFO     | api:anasent:31 - Received text: bonjour
+2025-11-05 11:41:38.734 | INFO     | api:anasent:31 - Received text: bonjour
+2025-11-05 11:41:38.955 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:41:38.955 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value

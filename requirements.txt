@@ -1,0 +1,9 @@
+transformers
+streamlit
+torch
+fastapi
+requests
+pydantic
+loguru
+uvicorn
+huggingface_hub
