@@ -30,3 +30,79 @@
 2025-11-05 11:41:38.734 | INFO     | api:anasent:31 - Received text: bonjour
 2025-11-05 11:41:38.955 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
 2025-11-05 11:41:38.955 | ERROR    | api:anasent:64 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-05 11:46:36.401 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:46:36.401 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:46:40.061 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: cat(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
+2025-11-05 11:46:40.061 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: cat(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
+2025-11-05 11:47:14.179 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:47:14.179 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:48:11.587 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:48:11.587 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:49:48.167 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 11:49:48.167 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 12:02:02.348 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 12:02:02.348 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 12:09:05.156 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 12:09:05.156 | INFO     | api:anasent:30 - Received text: bonjour
+2025-11-05 12:12:56.203 | INFO     | api:anasent:36 - Received text: bonjour
+2025-11-05 12:12:56.203 | INFO     | api:anasent:36 - Received text: bonjour
+2025-11-05 12:13:42.022 | INFO     | api:anasent:36 - Received text: j'ai très faim
+2025-11-05 12:13:42.022 | INFO     | api:anasent:36 - Received text: j'ai très faim
+2025-11-05 12:29:58.604 | INFO     | api:anasent:36 - Received text: j'ai très faim
+2025-11-05 12:29:58.604 | INFO     | api:anasent:36 - Received text: j'ai très faim
+2025-11-07 10:43:42.580 | INFO     | api:anasent:36 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:43:42.580 | INFO     | api:anasent:36 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:51:33.353 | INFO     | api:anasent:32 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:51:33.353 | INFO     | api:anasent:32 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:51:43.788 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: name 'step' is not defined
+2025-11-07 10:51:43.788 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: name 'step' is not defined
+2025-11-07 10:51:43.789 | INFO     | api:anasent:32 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:51:43.789 | INFO     | api:anasent:32 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:52:07.396 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: name 'step' is not defined
+2025-11-07 10:52:07.396 | ERROR    | api:anasent:62 - Erreur lors de l'analyse: name 'step' is not defined
+2025-11-07 10:53:27.768 | INFO     | api:anasent:34 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:53:27.768 | INFO     | api:anasent:34 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:53:32.925 | ERROR    | api:anasent:70 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:53:32.925 | ERROR    | api:anasent:70 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:55:14.407 | INFO     | api:anasent:34 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:55:14.407 | INFO     | api:anasent:34 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:55:20.763 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:55:20.763 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:56:32.987 | INFO     | api:anasent:35 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:56:32.987 | INFO     | api:anasent:35 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:57:05.716 | ERROR    | api:anasent:72 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:57:05.716 | ERROR    | api:anasent:72 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:58:20.395 | INFO     | api:anasent:36 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:58:20.395 | INFO     | api:anasent:36 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 10:58:25.765 | ERROR    | api:anasent:73 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 10:58:25.765 | ERROR    | api:anasent:73 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 11:03:37.734 | INFO     | api:anasent:37 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 11:03:37.734 | INFO     | api:anasent:37 - Received text: salut à tous, je suis bien content de vous voir.
+2025-11-07 11:03:41.950 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 11:03:41.950 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 11:27:15.821 | INFO     | api:anasent:37 - Received text: bonjour
+2025-11-07 11:27:15.821 | INFO     | api:anasent:37 - Received text: bonjour
+2025-11-07 11:27:19.783 | ERROR    | api:anasent:72 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 11:27:19.783 | ERROR    | api:anasent:72 - Erreur lors de l'analyse: cannot access local variable 'chat_history_ids' where it is not associated with a value
+2025-11-07 11:32:07.372 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:32:07.372 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:32:11.362 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'model' is not defined
+2025-11-07 11:32:11.362 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'model' is not defined
+2025-11-07 11:32:37.583 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:32:37.583 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:32:37.985 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'model' is not defined
+2025-11-07 11:32:37.985 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'model' is not defined
+2025-11-07 11:32:53.335 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:32:53.335 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:32:53.558 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'model' is not defined
+2025-11-07 11:32:53.558 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'model' is not defined
+2025-11-07 11:33:16.987 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:33:16.987 | INFO     | api:anasent:33 - Received text: bonjour
+2025-11-07 11:33:22.162 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'chat_history_ids' is not defined
+2025-11-07 11:33:22.162 | ERROR    | api:anasent:71 - Erreur lors de l'analyse: name 'chat_history_ids' is not defined
+2025-11-07 11:34:50.638 | INFO     | api:anasent:34 - Received text: bonjour
+2025-11-07 11:34:50.638 | INFO     | api:anasent:34 - Received text: bonjour
+2025-11-07 11:35:28.520 | INFO     | api:anasent:34 - Received text: Quelle belle journée !
+2025-11-07 11:35:28.520 | INFO     | api:anasent:34 - Received text: Quelle belle journée !
+2025-11-07 11:35:58.241 | INFO     | api:anasent:34 - Received text: Quelle belle journée !
+2025-11-07 11:35:58.241 | INFO     | api:anasent:34 - Received text: Quelle belle journée !
