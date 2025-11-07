@@ -11,6 +11,11 @@ translationClient = InferenceClient(
     api_key=os.environ["HF_TOKEN"],
 )
 
+sentimentClient = InferenceClient(
+    provider="hf-inference",
+    api_key=os.environ["HF_TOKEN"],
+)
+
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
 chatModel = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
 
@@ -23,8 +28,6 @@ logger.add("logs/api.log", rotation="500 MB", level="INFO")
 
 app = FastAPI()
 
-chat_history_ids = {}
-new_user_input_ids = {}
 
 @app.post("/chat/")
 async def anasent(payload: Texte):
@@ -37,27 +40,26 @@ async def anasent(payload: Texte):
     )
 
     try:
-        # encode the new user input, add the eos_token and return a tensor in Pytorch
-        new_user_input_ids = tokenizer.encode(tokenizer.eos_token, return_tensors="pt")
+        messages = [{"role": "user", "content": payload.texte}]
+        inputs = tokenizer.apply_chat_template(
+            messages,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt",
+        ).to(chatModel.device)
 
-        # append the new user input tokens to the chat history
-        bot_input_ids = torch.cat([chat_history_ids, new_user_input_ids], dim=-1)
+        outputs = chatModel.generate(**inputs, max_new_tokens=40)
 
-        # generated a response while limiting the total chat history to 1000 tokens,
-        chat_history_ids = chatModel.generate(
-            bot_input_ids, max_length=1000, pad_token_id=tokenizer.eos_token_id
-        )
-
-        # pretty print last ouput tokens from bot
         return {
             "message": payload.texte,
-            "translation": result,
-            "reply": format(
-                tokenizer.decode(
-                    chat_history_ids[:, bot_input_ids.shape[-1] :][0],
-                    skip_special_tokens=True,
-                )
+            "translation": result.translation_text,
+            "sentiment": sentimentClient.text_classification(
+                result.translation_text,
+                model="nlptown/bert-base-multilingual-uncased-sentiment",
+                top_k=1,
             ),
+            "reply": tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1] :]),
         }
     except Exception as e:
         print(e)
