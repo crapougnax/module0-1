@@ -40,7 +40,7 @@ async def anasent(payload: Texte):
     )
 
     try:
-        messages = [{"role": "user", "content": payload.texte}]
+        messages = [{"role": "user", "content": result.translation_text}]
         inputs = tokenizer.apply_chat_template(
             messages,
             add_generation_prompt=True,

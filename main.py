@@ -18,18 +18,11 @@ if st.button("Analyser"):
             payload = response.json()
             st.write("Résultats de l'analyse :")
             print(payload)
-            # st.write(f"Polarité négative : {sentiment['neg']}")
-            # st.write(f"Polarité neutre : {sentiment['neu']}")
-            # st.write(f"Polarité positive : {sentiment['pos']}")
-            # st.write(f"Score composé : {sentiment['compound']}")
+            st.write(f"Message : {payload['message']}")
+            st.write(f"Traduction : {payload['translation']}")
+            st.write(f"Sentiment Score : {payload['sentiment'][0]['score']}")
+            st.write(f"Réponse : {payload['reply']}")
 
-            # if sentiment['compound'] >= 0.05 :
-            #     st.write("Sentiment global : Positif 😀")
-            # elif sentiment['compound'] <= -0.05 :
-            #     st.write("Sentiment global : Négatif 🙁")
-            # else :
-            #     st.write("Sentiment global : Neutre 😐")
-            #     logger.info(f"Résultats affichés: {sentiment}")
 
         except requests.exceptions.RequestException as e:
             st.error(f"Erreur lors de la requête : {e}")
